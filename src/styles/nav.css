@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  margin: 0px 55px 15px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tittle {
+  font-size: 65px;
+  color: #1877f2;
+}
+
+.feet {
+  width: 25px;
+  position: absolute;
+  left: 275px;
+  top: 45px;
+  transform: rotate(45deg);
+}
+
+.left {
+  display: inline-flex;
+  list-style: none;
+}
+
+.left li {
+  letter-spacing: 3px;
+  margin-left: 32px;
+  font-size: 25px;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+li :hover {
+  color: #1877f2;
+}
+
+.whats {
+  width: 25px;
+  padding: 5px 5px 5px 15px;
+}
