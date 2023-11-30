@@ -1,4 +1,7 @@
-#root {
+@import url("https://fonts.googleapis.com/css2?family=Italianno&family=Jua&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Italianno&family=Jua&family=Roboto:wght@300;400;500&display=swap");
+
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -39,4 +42,71 @@
 
 .read-the-docs {
   color: #888;
+} */
+
+span {
+  font-family: "Roboto", sans-serif;
+}
+
+.Banner {
+  display: flex;
+  margin-top: 20px;
+}
+
+.left-banner {
+  margin: 0 200px 0 100px;
+}
+
+.traced {
+  position: absolute;
+  left: 87.14%;
+  right: 9.43%;
+  top: 38.15%;
+  bottom: 54.07%;
+}
+
+.Text1 {
+  position: absolute;
+  top: 250px;
+  font-family: "Jua";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 128px;
+  line-height: 160px;
+  color: #1877f2;
+}
+
+.Text2 {
+  position: absolute;
+  top: 400px;
+  font-family: "Jua";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 128px;
+  line-height: 160px;
+  color: #1877f2;
+}
+
+.Text3 {
+  position: absolute;
+  top: 400px;
+  right: 240px;
+  font-family: "Jua";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 128px;
+  line-height: 160px;
+  color: #ffdc26;
+}
+
+.and {
+  position: absolute;
+  top: 360px;
+  right: 620px;
+  font-family: "Italianno", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 120px;
+  color: #000000;
 }
