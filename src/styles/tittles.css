@@ -1,0 +1,12 @@
+.tittles {
+  font-size: 45px;
+  color: #1877f2;
+}
+
+.feet {
+  width: 25px;
+  position: absolute;
+  left: 275px;
+  top: 45px;
+  transform: rotate(45deg);
+}

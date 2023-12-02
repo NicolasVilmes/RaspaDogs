@@ -46,15 +46,34 @@
 
 span {
   font-family: "Roboto", sans-serif;
+  font-size: 20px;
 }
 
-.Banner {
-  display: flex;
-  margin-top: 20px;
+.Section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  margin: 50px;
 }
 
-.left-banner {
-  margin: 0 200px 0 100px;
+.left-section {
+  margin: 0 200px 0 50px;
+}
+
+.box {
+  height: 650px;
+  background-color: #1877f2;
+}
+
+.right-section {
+  height: auto;
+  width: 600px;
+  padding: 15px;
+}
+
+.text {
+  margin: 15000px;
+  margin-top: 50px;
 }
 
 .traced {
@@ -109,4 +128,8 @@ span {
   font-size: 96px;
   line-height: 120px;
   color: #000000;
+}
+
+.aboutUS {
+  width: 1px;
 }

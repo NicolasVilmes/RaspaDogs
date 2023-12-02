@@ -9,7 +9,7 @@ export const Navbar = () => {
     <nav id="nav">
       <Box>
         <h1 className="tittle"> Raspa D gs</h1>
-        <img src={dogfeet} className="feet" alt="Vite logo" />
+        <img src={dogfeet} className="feet" alt="logo" />
       </Box>
       <div className="left">
         <li>
