@@ -1,12 +1,11 @@
 .tittles {
+  display: inline-block;
   font-size: 45px;
   color: #1877f2;
 }
 
-.feet {
+.feet1 {
   width: 25px;
-  position: absolute;
-  left: 275px;
-  top: 45px;
   transform: rotate(45deg);
+  margin: 30px 0 0 5px;
 }

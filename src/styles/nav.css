@@ -10,16 +10,18 @@ nav {
   align-items: center;
 }
 
+#fistnav {
+}
+
+#secondnav {
+}
 .tittle {
-  font-size: 65px;
+  font-size: 45px;
   color: #1877f2;
 }
 
 .feet {
-  width: 25px;
-  position: absolute;
-  left: 275px;
-  top: 45px;
+  width: 15px;
   transform: rotate(45deg);
 }
 
@@ -30,8 +32,9 @@ nav {
 
 .left li {
   letter-spacing: 3px;
+  margin-top: 10px;
   margin-left: 32px;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 a {
@@ -45,6 +48,6 @@ li :hover {
 }
 
 .whats {
-  width: 25px;
+  width: 15px;
   padding: 5px 5px 5px 15px;
 }

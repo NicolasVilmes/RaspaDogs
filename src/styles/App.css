@@ -1,13 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Italianno&family=Jua&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Italianno&family=Jua&family=Roboto:wght@300;400;500&display=swap");
 
-/* #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+main {
+  gap: 25px;
+  margin: 0 25px 0 25px;
 }
 
+/*
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -52,64 +51,57 @@ span {
 .Section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 50px;
-  margin: 50px;
 }
 
 .left-section {
-  margin: 0 200px 0 50px;
-}
-
-.box {
-  height: 650px;
-  background-color: #1877f2;
+  margin: 0 200px 0 20px;
 }
 
 .right-section {
   height: auto;
   width: 600px;
-  padding: 15px;
 }
 
 .text {
-  margin: 15000px;
+  margin: 1px;
   margin-top: 50px;
 }
 
+.slogan {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
 .traced {
-  position: absolute;
-  left: 87.14%;
-  right: 9.43%;
-  top: 38.15%;
-  bottom: 54.07%;
+  margin-bottom: 135px;
+}
+
+.sep {
+  display: inline-flex;
+  justify-content: flex-end;
 }
 
 .Text1 {
-  position: absolute;
-  top: 250px;
+  top: 150px;
   font-family: "Jua";
   font-style: normal;
   font-weight: 400;
-  font-size: 128px;
+  font-size: 100px;
   line-height: 160px;
   color: #1877f2;
 }
 
 .Text2 {
-  position: absolute;
-  top: 400px;
   font-family: "Jua";
   font-style: normal;
   font-weight: 400;
-  font-size: 128px;
+  font-size: 100px;
   line-height: 160px;
   color: #1877f2;
 }
 
 .Text3 {
-  position: absolute;
-  top: 400px;
-  right: 240px;
   font-family: "Jua";
   font-style: normal;
   font-weight: 400;
@@ -119,17 +111,32 @@ span {
 }
 
 .and {
-  position: absolute;
-  top: 360px;
-  right: 620px;
   font-family: "Italianno", cursive;
   font-style: normal;
   font-weight: 400;
-  font-size: 96px;
+  font-size: 80px;
   line-height: 120px;
   color: #000000;
 }
 
-.aboutUS {
+.box {
+  padding: 25px;
+}
+
+.Prod {
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.line {
+  height: 700px;
   width: 1px;
+  background-color: gray;
+}
+
+.MapArea {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }

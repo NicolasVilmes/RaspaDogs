@@ -1,15 +1,17 @@
-import { Box, Button, Stack } from "@mui/material";
+import { Box, Button } from "@mui/material";
 import dogfeet from "../assets/dog_feet.svg";
 import whats from "../assets/whatsapp-logo.svg";
-import React from "react";
 import "../styles/nav.css";
 
 export const Navbar = () => {
   return (
     <nav id="nav">
-      <Box>
-        <h1 className="tittle"> Raspa D gs</h1>
-        <img src={dogfeet} className="feet" alt="logo" />
+      <Box sx={{ display: "inline-flex" }}>
+        <h1 className="tittle">
+          Raspa D
+          <img src={dogfeet} className="feet" alt="logo" />
+          gs
+        </h1>
       </Box>
       <div className="left">
         <li>
@@ -29,7 +31,7 @@ export const Navbar = () => {
             marginLeft: "60px",
           }}
         >
-          <a style={{ color: "#ffff", paddingTop: "5px" }}>Contactenos</a>
+          <a style={{ color: "#ffff" }}>Contactenos</a>
           <img src={whats} alt="Whatsapp Logo" className="whats" />
         </Button>
       </div>
